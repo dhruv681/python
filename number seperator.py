@@ -6,5 +6,5 @@ for word in num:
     if word.isdigit():
         numb.append(int(word))
     else:bumb.append(word)
-
-print(numb,bumb)
+sumb=bumb+numb
+print(sumb)
